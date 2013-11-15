@@ -7,6 +7,7 @@
 //
 
 #import "MINavigationController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface MINavigationController () {
     CALayer *_animationLayer;
