@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F40FEEB-EDCB-488D-A33A-B80A3005D58B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MINavigationControllerDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>975A3FCD-4278-49A4-8765-5B6C09DCD487</key>
+		<string>ssh://github.com/Veelian/MINavigationController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>example/MINavigationControllerDemo/MINavigationControllerDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>975A3FCD-4278-49A4-8765-5B6C09DCD487</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Veelian/MINavigationController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>975A3FCD-4278-49A4-8765-5B6C09DCD487</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>975A3FCD-4278-49A4-8765-5B6C09DCD487</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MINavigationController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
