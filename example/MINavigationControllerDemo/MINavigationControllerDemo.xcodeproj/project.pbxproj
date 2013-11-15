@@ -19,23 +19,8 @@
 		C22093DC1834B99900155290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C22093DB1834B99900155290 /* main.m */; };
 		C22093E01834B99900155290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C22093DF1834B99900155290 /* AppDelegate.m */; };
 		C22093E21834B99900155290 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22093E11834B99900155290 /* Images.xcassets */; };
-		C22093E91834B99A00155290 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22093E81834B99A00155290 /* XCTest.framework */; };
-		C22093EA1834B99A00155290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22093CF1834B99900155290 /* Foundation.framework */; };
-		C22093EB1834B99A00155290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22093D31834B99900155290 /* UIKit.framework */; };
-		C22093F31834B99A00155290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C22093F11834B99A00155290 /* InfoPlist.strings */; };
-		C22093F51834B99A00155290 /* MINavigationControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22093F41834B99A00155290 /* MINavigationControllerDemoTests.m */; };
 		C26F86F21836179300780148 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26F86F11836179300780148 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C22093EC1834B99A00155290 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C22093C41834B99900155290 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C22093CB1834B99900155290;
-			remoteInfo = MINavigationControllerDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A602439BA3CA85A6798A12B3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
@@ -57,11 +42,7 @@
 		C22093DE1834B99900155290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C22093DF1834B99900155290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C22093E11834B99900155290 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C22093E71834B99A00155290 /* MINavigationControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MINavigationControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22093E81834B99A00155290 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C22093F01834B99A00155290 /* MINavigationControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MINavigationControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
-		C22093F21834B99A00155290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C22093F41834B99A00155290 /* MINavigationControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINavigationControllerDemoTests.m; sourceTree = "<group>"; };
 		C26F86EF1836150500780148 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C26F86F11836179300780148 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -75,16 +56,6 @@
 				C22093D21834B99900155290 /* CoreGraphics.framework in Frameworks */,
 				C22093D41834B99900155290 /* UIKit.framework in Frameworks */,
 				C22093D01834B99900155290 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C22093E41834B99A00155290 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C22093E91834B99A00155290 /* XCTest.framework in Frameworks */,
-				C22093EB1834B99A00155290 /* UIKit.framework in Frameworks */,
-				C22093EA1834B99A00155290 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				C22093D51834B99900155290 /* MINavigationControllerDemo */,
-				C22093EE1834B99A00155290 /* MINavigationControllerDemoTests */,
 				C22093CE1834B99900155290 /* Frameworks */,
 				C22093CD1834B99900155290 /* Products */,
 				A6024C6F299F601B29851C9D /* MINavigationController */,
@@ -115,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				C22093CC1834B99900155290 /* MINavigationControllerDemo.app */,
-				C22093E71834B99A00155290 /* MINavigationControllerDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,24 +130,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C22093EE1834B99A00155290 /* MINavigationControllerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				C22093F41834B99A00155290 /* MINavigationControllerDemoTests.m */,
-				C22093EF1834B99A00155290 /* Supporting Files */,
-			);
-			path = MINavigationControllerDemoTests;
-			sourceTree = "<group>";
-		};
-		C22093EF1834B99A00155290 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C22093F01834B99A00155290 /* MINavigationControllerDemoTests-Info.plist */,
-				C22093F11834B99A00155290 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,24 +150,6 @@
 			productReference = C22093CC1834B99900155290 /* MINavigationControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C22093E61834B99A00155290 /* MINavigationControllerDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C22093FB1834B99A00155290 /* Build configuration list for PBXNativeTarget "MINavigationControllerDemoTests" */;
-			buildPhases = (
-				C22093E31834B99A00155290 /* Sources */,
-				C22093E41834B99A00155290 /* Frameworks */,
-				C22093E51834B99A00155290 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C22093ED1834B99A00155290 /* PBXTargetDependency */,
-			);
-			name = MINavigationControllerDemoTests;
-			productName = MINavigationControllerDemoTests;
-			productReference = C22093E71834B99A00155290 /* MINavigationControllerDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,11 +158,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = im.codar;
-				TargetAttributes = {
-					C22093E61834B99A00155290 = {
-						TestTargetID = C22093CB1834B99900155290;
-					};
-				};
 			};
 			buildConfigurationList = C22093C71834B99900155290 /* Build configuration list for PBXProject "MINavigationControllerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -244,7 +172,6 @@
 			projectRoot = "";
 			targets = (
 				C22093CB1834B99900155290 /* MINavigationControllerDemo */,
-				C22093E61834B99A00155290 /* MINavigationControllerDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,14 +185,6 @@
 				C22093E21834B99900155290 /* Images.xcassets in Resources */,
 				A6024E0E4C66407D15CF384F /* icon-grid-wallpaper-centered.png in Resources */,
 				A602444489929333F557BA38 /* 125905.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C22093E51834B99A00155290 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C22093F31834B99A00155290 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,37 +203,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C22093E31834B99A00155290 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C22093F51834B99A00155290 /* MINavigationControllerDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C22093ED1834B99A00155290 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C22093CB1834B99900155290 /* MINavigationControllerDemo */;
-			targetProxy = C22093EC1834B99A00155290 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C22093D81834B99900155290 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C22093D91834B99900155290 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C22093F11834B99A00155290 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C22093F21834B99A00155290 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -426,52 +321,6 @@
 			};
 			name = Release;
 		};
-		C22093FC1834B99A00155290 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MINavigationControllerDemo.app/MINavigationControllerDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MINavigationControllerDemo/MINavigationControllerDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MINavigationControllerDemoTests/MINavigationControllerDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				VALID_ARCHS = "armv7 armv7s arm64";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		C22093FD1834B99A00155290 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MINavigationControllerDemo.app/MINavigationControllerDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MINavigationControllerDemo/MINavigationControllerDemo-Prefix.pch";
-				INFOPLIST_FILE = "MINavigationControllerDemoTests/MINavigationControllerDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				VALID_ARCHS = "armv7 armv7s arm64";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -489,15 +338,6 @@
 			buildConfigurations = (
 				C22093F91834B99A00155290 /* Debug */,
 				C22093FA1834B99A00155290 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C22093FB1834B99A00155290 /* Build configuration list for PBXNativeTarget "MINavigationControllerDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C22093FC1834B99A00155290 /* Debug */,
-				C22093FD1834B99A00155290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
