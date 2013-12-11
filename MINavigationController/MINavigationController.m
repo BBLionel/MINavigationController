@@ -78,7 +78,7 @@
 
 - (UIViewController *)popViewControllerAnimated:(BOOL)animated {
     [_animationLayer removeFromSuperlayer];
-    [self.view.layer insertSublayer:_animationLayer above:self.view.layer];
+    [self.view.layer insertSublayer:_animationLayer above:self.navigationBar.layer];
     if (animated) {
         [self loadAnimationLayer];
         UIView *toView = [[self.viewControllers objectAtIndex:[self.viewControllers indexOfObject:self.visibleViewController] - 1] view];
